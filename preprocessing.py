@@ -1,3 +1,6 @@
+import pandas as pd
+import re
+
 def remove_emojis(text):
     emoji_pattern = re.compile(
         "[" 
